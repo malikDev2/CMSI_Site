@@ -1,0 +1,98 @@
+html body{
+    background: grey;
+}
+
+.body{
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    background: red;
+    height: 150px;
+    text-decoration: none;
+}
+
+.body:hover{
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    background: rgb(180, 0, 0);
+    height: 150px;
+    text-decoration: none;
+}
+
+
+.cards{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    width: 100%; 
+}
+
+.cards a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.homeButton {
+    background: red;
+    width: 100px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none; 
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+.homeButton :hover{
+    background: rgb(180, 0, 0);
+    width: 100px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none; 
+    margin: 0 auto; 
+
+}
+
+.homeButton h1 {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.selector{
+    background: rgb(125, 125, 125);
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+    left: 100px;
+    margin-bottom: 20px;
+
+}
+
+.figures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.figures .body{
+    background: rgba(255, 152, 152, 0.147);
+    
+}
+
+
+
