@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import Card from './card.jsx';
+import Card2 from './card2.jsx';
+import images from './images.jsx';
 
 function Figures() {
     // useState to change selected figure
@@ -9,7 +11,7 @@ function Figures() {
 
     // List of figures
     const figureData = {
-        aristotle: { title: "Aristotle", body: "The founder of philosophy" },
+        aristotle: { title: "Aristotle", body: "The founder of philosophy", image: images.aristotle },
         kant: { title: "Kant", body: "I kant take it anymore" },
         rawls: { title: "Rawls", body: "buddy." },
     };
@@ -32,9 +34,10 @@ function Figures() {
 
             {/* If selectedFigure has figure data, display a card using its data */}
             {selectedFigure && (
-                <Card
+                <Card2
                     title={figureData[selectedFigure].title}
                     body={figureData[selectedFigure].body}
+                    image={figureData[selectedFigure].image}
                 />
             )}
 

@@ -11,3 +11,12 @@ function Card2({title, body, image}){
 }
 
 export default Card2
+
+/*
+Friedrich Nietzsche
+David Hume
+Socrates
+Plato
+
+
+*/
