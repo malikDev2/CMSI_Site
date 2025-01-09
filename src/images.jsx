@@ -6,6 +6,7 @@ import plato from './images/Plato.jpg';
 import rawls from './images/Rawls.jpeg';
 import socrates from './images/Socrates.avif';
 
+
 const images = {
     aristotle,
     hume,
