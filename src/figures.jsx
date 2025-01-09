@@ -9,7 +9,7 @@ function Figures() {
 
     // List of figures
     const figureData = {
-        aristotle: { title: "Aristotle", body: "Founder n shi" },
+        aristotle: { title: "Aristotle", body: "The founder of philosophy" },
         kant: { title: "Kant", body: "I kant take it anymore" },
         rawls: { title: "Rawls", body: "buddy." },
     };
