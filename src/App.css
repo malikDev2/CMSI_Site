@@ -90,9 +90,11 @@ html body{
 }
 
 .figures .body{
-    background: rgba(255, 152, 152, 0.147);
-    
+    background: var(--card-bg-color, rgba(146, 99, 99, 0.314));
+    height: 400px;
 }
+
+
 
 
 
