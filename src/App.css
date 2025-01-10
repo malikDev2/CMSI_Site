@@ -91,7 +91,8 @@ html body{
 
 .figures .body{
     background: var(--card-bg-color, rgba(146, 99, 99, 0.314));
-    height: 400px;
+    height: 350px;
+    width: 250px;
 }
 
 
