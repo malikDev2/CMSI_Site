@@ -15,7 +15,7 @@ function Units(){
         },
         meta: {
             title: "Meta Ethics",
-            body: "Explores the nature of moral statements and truth.",
+            body: "The branch of ethics that explores the nature, meaning, and foundations of moral values, principles, and judgments.",
             color: "blue",
         },
         ethical: {
@@ -46,7 +46,7 @@ function Units(){
         guns: {
             title: "Guns in America",
             body: "Analyzes moral arguments on gun control.",
-            color: "gray",
+            color: "rgb(238, 135, 33)",
         },
     };
 
