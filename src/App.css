@@ -82,7 +82,7 @@ html body{
 
 }
 
-.figures{
+.figures, .units{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,6 +94,16 @@ html body{
     height: 350px;
     width: 250px;
 }
+
+.units .body{
+    background: var(--card-bg-color, rgba(146, 99, 99, 0.314));
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
 
 
 

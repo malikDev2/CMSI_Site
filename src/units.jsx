@@ -10,7 +10,7 @@ function Units(){
     const unitData = {
         util: {
             title: "Utilitarianism",
-            body: "Focuses on maximizing happiness for the greatest number.",
+            body: "Holds that the most ethical choice is the one that will produce the greatest good for the greatest number.",
             color: "red",
         },
         meta: {
