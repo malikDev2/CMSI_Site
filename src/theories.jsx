@@ -8,6 +8,7 @@ import images from './images.jsx';
 function Theories(){
     // useState to change selected theory
     const [ selectedTheory, setSelectedTheory] = useState('');
+    const theoryData = {}
 
     const handleSelectChange = (e) => {
     setSelectedTheory(e.target.value);
@@ -22,6 +23,16 @@ function Theories(){
             <option value="Norm">Normative Theories</option>
             <option value="SCT">Social Contract Theory</option>
         </select>
+
+    {/* If selectedTheory has theory data, display a card using its data */}
+        {selectedTheory && (
+            <Card2
+                title={theoryData[selectedTheory].title}
+                body={theoryData[selectedTheory].body}
+                image={theoryData[selectedTheory].image}
+                color={theoryData[selectedTheory].color}
+            />
+        )}
     <Link to='/' className='homeButton'>
         <h1>Home</h1>
     </Link>

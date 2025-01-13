@@ -8,11 +8,6 @@ function Units(){
     const [selectedUnit, setSelectedUnit] = useState('');
 
     const unitData = {
-        util: {
-            title: "Utilitarianism",
-            body: "Holds that the most ethical choice is the one that will produce the greatest good for the greatest number.",
-            color: "red",
-        },
         meta: {
             title: "Meta Ethics",
             body: "The branch of ethics that explores the nature, meaning, and foundations of moral values, principles, and judgments.",
@@ -60,7 +55,6 @@ function Units(){
     <div className = "units">
         <select name="uns" id="unitSelector" className="selector" onChange={handleSelectChange}>
             <option value="">Select a unit</option>
-            <option value="util">Utilitarianism</option>
             <option value="meta">Meta Ethics</option>
             <option value="ethical">Ethical & Cultural Relativism</option>
             <option value="altruism">Altruism/Egoism</option>
