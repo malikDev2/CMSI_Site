@@ -73,12 +73,13 @@ html body{
 }
 
 .selector{
-    background: rgb(125, 125, 125);
+    background-color: rgba(255, 245, 235, 0.348);
     width: 200px;
     display: flex;
     margin: 0 auto;
     left: 100px;
     margin-bottom: 20px;
+    cursor: pointer;
 
 }
 
@@ -100,7 +101,6 @@ html body{
     height: 410px;
     width: 320px;
 
-
 }
 
 
@@ -110,6 +110,7 @@ html body{
     height: 200px;
     width: 200px;
 }
+
 
 
 
