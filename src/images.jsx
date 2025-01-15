@@ -5,6 +5,10 @@ import nietzsche from './images/Nietzsche.jpg';
 import plato from './images/Plato.jpg';
 import rawls from './images/Rawls.jpeg';
 import socrates from './images/Socrates.avif';
+import raw from './images/Raw.webp';
+import soc from './images/socCon.png';
+import util from './images/Util.jpg';
+import norm from './images/Norm.jpg';
 
 // export images
 
@@ -15,7 +19,11 @@ const images = {
     nietzsche,
     plato,
     rawls,
-    socrates
+    socrates,
+    raw,
+    soc,
+    util,
+    norm
 };
 
 export default images;

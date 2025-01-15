@@ -11,37 +11,37 @@ function Units(){
         meta: {
             title: "Meta Ethics",
             body: "The branch of ethics that explores the nature, meaning, and foundations of moral values, principles, and judgments.",
-            color: "blue",
+            color: "rgb(238, 135, 33)",
         },
         ethical: {
             title: "Ethical Relativism",
             body: "Argues that morality depends on cultural or personal perspective.",
-            color: "green",
+            color: "rgb(117, 111, 195)",
         },
         altruism: {
             title: "Altruism vs Egoism",
             body: "Examines self-interest versus helping others.",
-            color: "purple",
+            color: "rgb(180, 238, 33)",
         },
         cognative: {
             title: "Cognitive Biases",
             body: "Focuses on how biases influence moral decision-making.",
-            color: "orange",
+            color: "rgb(238, 33, 135)",
         },
         moral: {
             title: "Moral Agency",
             body: "Discusses who or what qualifies as a moral agent.",
-            color: "yellow",
+            color: "rgb(33, 139, 238)",
         },
         abortion: {
             title: "Abortion",
             body: "Explores ethical debates around abortion.",
-            color: "pink",
+            color: "rgb(238, 71, 33)",
         },
         guns: {
             title: "Guns in America",
             body: "Analyzes moral arguments on gun control.",
-            color: "rgb(238, 135, 33)",
+            color: "rgb(189, 139, 89)",
         },
     };
 

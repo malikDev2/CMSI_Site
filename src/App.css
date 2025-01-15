@@ -1,5 +1,5 @@
 html body{
-    background: grey;
+    background: rgb(147, 213, 205);
 }
 
 .body{
@@ -82,7 +82,7 @@ html body{
 
 }
 
-.figures, .units{
+.figures, .units, .theories{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,6 +94,16 @@ html body{
     height: 350px;
     width: 250px;
 }
+
+.theories .body{
+    background: var(--card-bg-color, rgba(146, 99, 99, 0.314));
+    height: 410px;
+    width: 320px;
+
+
+}
+
+
 
 .units .body{
     background: var(--card-bg-color, rgba(146, 99, 99, 0.314));
